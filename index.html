@@ -38,10 +38,7 @@
         let twitterLink_2_of_3 = "%22" + random_quote.replace(/ /g,"%20") + "%22";
         let twitterLink_3_of_3 = "%20- " + random_author.replace(/ /g,"%20");
         let twitterLink = twitterLink_1_of_3 + twitterLink_2_of_3 + twitterLink_3_of_3;
-        //console.log(twitterLink_1_of_3);
-        //console.log(twitterLink_2_of_3);
-        //console.log(twitterLink_3_of_3);
-        //console.log(twitterLink);
+
         document.getElementById("tweet-quote").href = twitterLink;
 
         document.getElementById('body').style.background = backgroundColors[Math.floor(Math.random()*backgroundColors.length)];
